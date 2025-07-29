@@ -1,6 +1,6 @@
 import asyncio
 import json
-from hackerNews_get_ids import (
+from .hackerNews_get_ids import (
     hackerNews_showstories_ids,
     hackerNews_beststories_ids,
     hackerNews_topstories_ids,
@@ -9,7 +9,7 @@ from hackerNews_get_ids import (
     hackerNews_askstories_ids,
     hackerNews_updates_ids,
 )
-from hackerNews_items_n_users import hackerNews_item
+from .hackerNews_items_n_users import hackerNews_item
 
 base_url = 'https://hacker-news.firebaseio.com/v0'
 
